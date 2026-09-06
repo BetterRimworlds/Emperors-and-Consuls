@@ -227,6 +227,37 @@ Ship in this order so each slice is playable.
 
 ---
 
+## Implementation status
+
+Recorded 2026-09-06. **About 75%** of this v1 plan is in the Emperors-and-Consuls repo. The remaining quarter is thinner design (quest/ritual, hunt flavor, attack warning) plus the CryoRegenesis handshake that actually turns the court on.
+
+### By implementation slice
+
+| Slice | Plan | Done | Notes |
+|---|---|---|---|
+| 1. Repo + court gate | no scenarios; alliance only with Consul/Emperor | **90%** | Gate and alliance exist. CryoRegenesis still only *names* Special Consul in credits — it does not `SetTitle`, so a real court recall may never wake the mod. |
+| 2. Assassin year | mark, raid storm, inherit, crown in-save | **70%** | Mark, inheritance (if CR absent), expiry crowning, generic enemy raids every 2–4 days. Not a distinct hunter/rival-Knight crisis. |
+| 3. Trade surplus | extra Empire stock, fail closed | **85%** | Settlement + orbital postfix, wrapped in try/catch. |
+| 4. Vassalize | Knight at victory → Imperial Vassals | **80%** | Auto-annex (no “offer”), skips Empire/player/hidden/mechs/insects, pirates allowed. |
+| 5. Knight loans | 60 days, one site, renew, 2-day death grace, rebellion | **90%** | World-pawn stationing, gizmos, alert. |
+| 6. Archon conversion + recall | 300 days, rite **at the site**, recall/governor | **70%** | Caravan gizmo when an Archon is on the tile — not a quest/ritual. Recall drop-pods home. |
+| 7. Stargate continuity | hard dep; `Shuttle.xml` recall | **50%** | Stargate is a hard dependency. This mod does not read `Shuttle.xml`; it waits for titles on pawns Stargate already spawned. |
+| 8. English letters | English first | **95%** | Keyed English is in. Other languages were explicitly later. |
+
+### What is not done (the other ~25%)
+
+- **CryoRegenesis still does not grant Consul/Emperor on the pawn**, so the success playthrough cannot start without debug actions.
+- No warning / “you are attacking your own Empire” break of the alliance (`playerBrokeAlliance` is saved, never set). Hostility is just blocked.
+- Conversion is a world gizmo, not a one-time site quest.
+- Hunt is repeated `RaidEnemy`, not mercenary hunters / rival Knights.
+- No extra languages (called out as later).
+
+### Success criteria vs code
+
+Coded end-to-end **if** a Consul/Emperor (or marked assassin) is already on the map. Not closed as a campaign from a CryoRegenesis credits roll, because that ending still does not put the title on the colonist.
+
+---
+
 ## Key decisions
 
 1. **Standalone mod**, not a CryoRegenesis module — different save component, different players, Royalty-only installs.
