@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <BR_EAC_LetterAllianceLabel>Imperial alliance</BR_EAC_LetterAllianceLabel>
+  <BR_EAC_LetterAllianceText>The Empire on this world recognizes {0} as its legitimate authority.\n\nEvery Imperial city is already an ally. Ordinary goodwill decay toward the Empire is suspended while a living colonist holds Emperor, Special Consul, or a recognized claim.</BR_EAC_LetterAllianceText>
+
+  <BR_EAC_LetterHuntStartLabel>Keep What You Kill</BR_EAC_LetterHuntStartLabel>
+  <BR_EAC_LetterHuntStartText>{0} bears the Hunted Assassin mark. Survive sixty days of succession crisis — frequent raids, hunters, rival claimants — and Imperial custom will recognize the claim on the throne.\n\nIf a Knight or higher kills the Marked One, the nanites jump and a fresh sixty days begin. You keep what you kill; you do not keep their leftover time.</BR_EAC_LetterHuntStartText>
+
+  <BR_EAC_LetterCrownLabel>The throne is yours</BR_EAC_LetterCrownLabel>
+  <BR_EAC_LetterCrownText>The Hunted Assassin mark has burned out of {0}. Imperial custom recognizes the claim.\n\n{0} is crowned Emperor. The hunt is over. Play continues — hold the planet, keep the court alive, expand the Empire.</BR_EAC_LetterCrownText>
+
+  <BR_EAC_LetterInheritLabel>Keep What You Kill</BR_EAC_LetterInheritLabel>
+  <BR_EAC_LetterInheritText>{0} has slain the Marked One ({1}).\n\nThe Hunted Assassin subspace trackers leapt to their new host — as with every such mark, you keep what you kill.\n\nA fresh sixty-day hunt begins. Each new claimant starts their own race for the throne.</BR_EAC_LetterInheritText>
+
+  <BR_EAC_LetterVassalLabel>Imperial vassal</BR_EAC_LetterVassalLabel>
+  <BR_EAC_LetterVassalText>{0} has been taken in the Empire's name. A Knight was present at victory, so the city remains as an Imperial vassal instead of a ruin.\n\nLoan a Knight to occupy it. A gap in Knight presence will break occupation. After five RimWorld years of continuous occupation, an Archon may convert it into an Imperial city.</BR_EAC_LetterVassalText>
+
+  <BR_EAC_LetterNoKnightLabel>Settlement defeated</BR_EAC_LetterNoKnightLabel>
+  <BR_EAC_LetterNoKnightText>{0} fell, but no colony Knight was present. The usual destruction follows — annexation requires a Knight or higher on the map when the last defenders break.</BR_EAC_LetterNoKnightText>
+
+  <BR_EAC_LetterRebellionLabel>Vassal rebellion</BR_EAC_LetterRebellionLabel>
+  <BR_EAC_LetterRebellionText>{0} is no longer occupied. Without a Knight on site the vassal has rebelled, and the five-year clock is reset.</BR_EAC_LetterRebellionText>
+
+  <BR_EAC_LetterLoanLabel>Knight on loan</BR_EAC_LetterLoanLabel>
+  <BR_EAC_LetterLoanText>{0} has been loaned to {1} for sixty days. They cannot work the home colony during the term. Renew before expiry to keep occupation continuous.</BR_EAC_LetterLoanText>
+
+  <BR_EAC_LetterLoanEndedLabel>Knight loan ended</BR_EAC_LetterLoanEndedLabel>
+  <BR_EAC_LetterLoanEndedText>The loan of {0} at {1} has ended. Send or renew a Knight or occupation will break.</BR_EAC_LetterLoanEndedText>
+
+  <BR_EAC_LetterConvertedLabel>Imperial city</BR_EAC_LetterConvertedLabel>
+  <BR_EAC_LetterConvertedText>{0} has been converted. After five years of occupation, {1} performed the rite and the settlement is now an Imperial city — the same as the ones allied at the start.\n\nThe Archon may be recalled to the colony, or left as the city's governor.</BR_EAC_LetterConvertedText>
+
+  <BR_EAC_LetterRecallLabel>Noble recalled</BR_EAC_LetterRecallLabel>
+  <BR_EAC_LetterRecallText>{0} has returned to the colony.</BR_EAC_LetterRecallText>
+
+  <BR_EAC_GizmoLoan>Loan Knight</BR_EAC_GizmoLoan>
+  <BR_EAC_GizmoLoanDesc>Station a colony Knight at this vassal for sixty days. One Knight cannot occupy two vassals at once.</BR_EAC_GizmoLoanDesc>
+  <BR_EAC_GizmoRenew>Renew Knight loan</BR_EAC_GizmoRenew>
+  <BR_EAC_GizmoRenewDesc>Extend the current Knight's term by another sixty days so occupation stays continuous.</BR_EAC_GizmoRenewDesc>
+  <BR_EAC_GizmoRecallKnight>Recall Knight</BR_EAC_GizmoRecallKnight>
+  <BR_EAC_GizmoRecallKnightDesc>End the current term and drop the Knight back at the home colony. Occupation will break unless another Knight is already here or an Archon has converted the city.</BR_EAC_GizmoRecallKnightDesc>
+  <BR_EAC_GizmoConvert>Convert to Empire city</BR_EAC_GizmoConvert>
+  <BR_EAC_GizmoConvertDesc>An Archon in this caravan performs the conversion. The settlement joins the Empire faction.</BR_EAC_GizmoConvertDesc>
+  <BR_EAC_GizmoRecallArchon>Recall Archon</BR_EAC_GizmoRecallArchon>
+  <BR_EAC_GizmoRecallArchonDesc>The Archon rejoins the colony as a colonist, title intact.</BR_EAC_GizmoRecallArchonDesc>
+
+  <BR_EAC_NoKnightToLoan>No idle colony Knight is available to loan.</BR_EAC_NoKnightToLoan>
+  <BR_EAC_KnightAlreadyLoaned>{0} is already occupying a vassal.</BR_EAC_KnightAlreadyLoaned>
+  <BR_EAC_ConvertNeedArchon>An Archon (or Count) in this caravan is required, and the vassal must have five years of continuous occupation.</BR_EAC_ConvertNeedArchon>
+  <BR_EAC_AnnexationDisabled>Emperors and Consuls: annexation disabled because another annexation mod is loaded ({0}).</BR_EAC_AnnexationDisabled>
+
+  <BR_EAC_AlertNeedsKnight>Vassal needs a Knight</BR_EAC_AlertNeedsKnight>
+  <BR_EAC_AlertNeedsKnightDesc>These Imperial vassals have no Knight on loan. Occupation will break (or already has a short grace after a death). Loan a Knight to keep the five-year clock.\n\n{0}</BR_EAC_AlertNeedsKnightDesc>
+
+  <BR_EAC_InspectVassal>Imperial vassal. Occupation: {0} / {1} days.</BR_EAC_InspectVassal>
+  <BR_EAC_InspectLoan>Knight on loan: {0} ({1} days left).</BR_EAC_InspectLoan>
+  <BR_EAC_InspectGrace>Knight died. Grace: {0} days left.</BR_EAC_InspectGrace>
+  <BR_EAC_InspectReady>Ready for Archon conversion.</BR_EAC_InspectReady>
+  <BR_EAC_InspectConverted>Imperial city. Archon governor: {0}.</BR_EAC_InspectConverted>
+  <BR_EAC_InspectConvertedNoGovernor>Imperial city (converted). Recall remains available if a governor was left here.</BR_EAC_InspectConvertedNoGovernor>
+
+  <BR_EAC_HuntRaidLetterLabel>Succession crisis</BR_EAC_HuntRaidLetterLabel>
+  <BR_EAC_HuntRaidLetterText>Hunters and rival claimants have found the Marked One. The succession crisis does not wait.</BR_EAC_HuntRaidLetterText>
+
+</LanguageData>

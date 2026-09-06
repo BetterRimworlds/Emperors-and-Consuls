@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef ParentName="OutlanderFactionBase">
+    <defName>BR_ImperialVassals</defName>
+    <label>imperial vassals</label>
+    <description>Settlements conquered in the Emperor's or Consul's name. A Knight holds each city until an Archon converts it into a true Imperial city.</description>
+    <pawnSingular>vassal</pawnSingular>
+    <pawnsPlural>vassals</pawnsPlural>
+    <categoryTag>Outlander</categoryTag>
+    <settlementGenerationWeight>0</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxConfigurableAtWorldCreation>0</maxConfigurableAtWorldCreation>
+    <canSiege>false</canSiege>
+    <canStageAttacks>false</canStageAttacks>
+    <leaderTitle>governor</leaderTitle>
+    <factionNameMaker>NamerFactionEmpire</factionNameMaker>
+    <settlementNameMaker>NamerSettlementEmpire</settlementNameMaker>
+    <colorSpectrum>
+      <li>(0.82, 0.72, 0.38)</li>
+    </colorSpectrum>
+    <techLevel>Industrial</techLevel>
+  </FactionDef>
+
+</Defs>

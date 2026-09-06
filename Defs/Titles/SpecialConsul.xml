@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Playable Special Consul: seniority between Archon (Count, 600) and Stellarch (900). -->
+  <RoyalTitleDef ParentName="BaseEmpireTitle">
+    <defName>BR_SpecialConsul</defName>
+    <label>special consul</label>
+    <description>The title of Special Consul is granted to the Imperial plenipotentiary of a rimworld — planetary leadership in the Emperor's name. In the Empire, a consul usually rules a world; this special commission carries the same rights of conquest and alliance.</description>
+    <seniority>750</seniority>
+    <favorCost>0</favorCost>
+    <minExpectation>Royal</minExpectation>
+    <changeHeirQuestPoints>4000</changeHeirQuestPoints>
+    <commonality>0</commonality>
+    <canBeInherited>True</canBeInherited>
+    <suppressIdleAlert>true</suppressIdleAlert>
+    <disabledWorkTags>
+      <li>Cleaning</li>
+      <li>ManualDumb</li>
+    </disabledWorkTags>
+    <requiredApparel>
+      <li>
+        <bodyPartGroupsMatchAny>
+          <li>UpperHead</li>
+          <li>FullHead</li>
+        </bodyPartGroupsMatchAny>
+        <requiredTags>
+          <li>RoyalTier6</li>
+        </requiredTags>
+        <allowedTags>
+          <li>PrestigeCombatGear</li>
+          <li>Psychic</li>
+          <li>Mechlord</li>
+        </allowedTags>
+      </li>
+    </requiredApparel>
+    <throneRoomRequirements>
+      <li Class="RoomRequirement_HasAssignedThroneAnyOf">
+        <things><li>GrandThrone</li></things>
+      </li>
+      <li Class="RoomRequirement_Area">
+        <area>60</area>
+      </li>
+      <li Class="RoomRequirement_Impressiveness">
+        <impressiveness>80</impressiveness>
+      </li>
+    </throneRoomRequirements>
+    <tags>
+      <li>EmpireTitle</li>
+    </tags>
+  </RoyalTitleDef>
+
+</Defs>
